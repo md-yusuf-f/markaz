@@ -3,7 +3,7 @@
 A real-time operations dashboard for self-hosted infrastructure.
 Built with React + Vite, served by Nginx, designed for Docker-based homelabs.
 
-![Markaz Dashboard]<img width="1918" height="988" alt="image" src="https://github.com/user-attachments/assets/51921abe-c552-4306-929f-14d515e90d31" />
+<img width="1918" height="988" alt="image" src="https://github.com/user-attachments/assets/51921abe-c552-4306-929f-14d515e90d31" />
 
 
 ## Features
