@@ -1,0 +1,21 @@
+services:
+  markaz-ui:
+    build:
+      context: ./markaz-ui
+      dockerfile: Dockerfile
+    container_name: markaz-ui
+    restart: unless-stopped
+    networks:
+      - proxy
+      - monitoring
+      - socket
+    labels:
+      - "traefik.enable=false"
+
+networks:
+  proxy:
+    external: true
+  monitoring:
+    external: true
+  socket:
+    external: true
